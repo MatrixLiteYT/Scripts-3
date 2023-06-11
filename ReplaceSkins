@@ -1,0 +1,72 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class ReplaceSkins : MonoBehaviour
+{
+    public Button planet;
+    [Header("Земля")]
+    public Sprite Earth;
+    [Header("Юпитер")]
+    public Sprite Jupiter;
+    [Header("Марс")]
+    public Sprite Mars;
+    [Header("Меркурий")]
+    public Sprite Mercury;
+    [Header("Луна")]
+    public Sprite Moon;
+    [Header("Нептун")]
+    public Sprite Neptune;
+    [Header("Плутон")]
+    public Sprite Pluto;
+    [Header("Сатурн")]
+    public Sprite Saturn;
+    [Header("Уран")]
+    public Sprite Uranus;
+
+    public void theEarth()
+    {
+        planet.image.sprite = Earth; 
+    }
+
+    public void theJupiter()
+    {
+        planet.image.sprite = Jupiter; 
+    }
+
+    public void theMars()
+    {
+        planet.image.sprite = Mars; 
+    }
+
+    public void theMercury()
+    {
+        planet.image.sprite = Mercury; 
+    }
+
+    public void theMoon()
+    {
+        planet.image.sprite = Moon; 
+    }
+
+    public void theNeptune()
+    {
+        planet.image.sprite = Neptune; 
+    }
+
+    public void thePluto()
+    {
+        planet.image.sprite = Pluto; 
+    }
+
+    public void theSaturn()
+    {
+        planet.image.sprite = Saturn; 
+    }
+
+    public void theUranus()
+    {
+        planet.image.sprite = Uranus; 
+    }
+}
